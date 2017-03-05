@@ -1,0 +1,20 @@
+# Notes
+
+* Do the rectangular maps represent a projected radius of the planet sphere? 
+	* It is not realistic to display an entire planet hemisphere on the screen.  
+	* Some resources for calculating projections:
+		* http://www.progonos.com/furuti/MapProj/Normal/ProjAz/projAz.html 
+			* See: Near-side perspective maps simulate views from space
+		* https://cesiumjs.org/2013/04/25/horizon-culling/
+		* http://stackoverflow.com/questions/3717226/radius-of-projected-sphere
+		* http://stackoverflow.com/questions/21648630/radius-of-projected-sphere-in-screen-space?noredirect=1&lq=1
+		* https://en.wikipedia.org/wiki/Spherical_cap
+		* http://mathworld.wolfram.com/SphericalCap.html
+	* Processing stuff to explore:
+		* https://processing.org/tutorials/p3d/
+
+* Efficiency:
+	* Create an array of masks, and cycle through them?
+	* Use a single mask that is incremented?
+	* Single mask and array of images?
+

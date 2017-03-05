@@ -1,7 +1,8 @@
 # Notes
 
 * Do the rectangular maps represent a projected radius of the planet sphere? 
-	* It is not realistic to display an entire planet hemisphere on the screen.  
+	* It is not realistic to display an entire planet hemisphere on the screen:
+		* The planet maps were likely based off of probe camera images, so this should already be the case for these maps
 	* Some resources for calculating projections:
 		* http://www.progonos.com/furuti/MapProj/Normal/ProjAz/projAz.html 
 			* See: Near-side perspective maps simulate views from space
@@ -17,4 +18,8 @@
 	* Create an array of masks, and cycle through them?
 	* Use a single mask that is incremented?
 	* Single mask and array of images?
+
+* Todo:
+	* When the image loop size exceeds the remaining size of the rectangular map file:
+		* Grab the remaining image from the beginning of the map and combine
 
